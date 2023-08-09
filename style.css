@@ -1,0 +1,107 @@
+#navone1 {
+    background-color: #b05de0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+   
+ }
+
+ #navone:hover {
+    background-color: rgb(255, 255, 255, );
+    opacity: 0.5;
+    text-decoration: underline;
+ }
+
+ .title {
+    text-align: center;
+    font-family: Helvetica ;
+    font-weight: bold;
+    font-size: 250px;
+    margin:300px;
+ }
+
+
+ body {
+    font-family: Helvetica;
+    font-weight: bold;
+    background-color: #b05de0;
+ }
+
+
+
+ .aboutme2 {
+    margin-top: 50px;
+    margin-right:100px;
+    margin-left:100px;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    
+ }
+
+ .aboutme {
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .abs {
+    display: flex;
+    justify-content: space-around;
+    text-align:center;
+ }
+
+ .backg{
+    text-align: center;
+ }
+
+ img {
+   width:150px;
+
+ }
+
+.aboutt {
+   border: 2px solid black
+}
+
+.lists {
+   display: flex;
+   justify-content: center;
+}
+
+.myEdu {
+   text-align: center;
+}
+
+#headEdu{
+   margin-right:230px;
+   margin-left:230px;
+   border: 2px solid black
+}
+
+#headCurr{
+   text-align:center;
+   border: 2px solid black;
+   margin-left:230px;
+   margin-right:230px;
+}
+
+.backTop{
+   background-color: red;
+   margin-left: 900px;
+   position:fixed;
+   bottom: 0;
+}
+
+
+@media(max-width: 1030px) {
+   body {
+       width: 50%;
+   }
+
+}
+
+@media(max-width: 530px) {
+   .body {
+       width: 80%;
+   }
+}
